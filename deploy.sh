@@ -1,5 +1,5 @@
 TARGET=$1
-GIT_REPO=ssh://git@git.s.uw.edu/iam/identity-uw.git
+GIT_REPO=git@github.com:UWIT-IAM/identity-uw.git
 BASEDIR=$HOME
 DEPLOYDIR=identity-uw-${TARGET}
 LOCKFILE=${BASEDIR}/deploys/${DEPLOYDIR}.lock
